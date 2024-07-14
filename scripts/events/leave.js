@@ -16,7 +16,7 @@ module.exports = {
 			session4: "tối",
 			leaveType1: "tự rời",
 			leaveType2: "bị kick",
-			defaultLeaveMessage: "{userName} Adios, tu ne nous manqueras pas, macaque!"
+			defaultLeaveMessage: "{userName} On pense à toi, on pleure parfois on s’demande pourquoi mais ainsi va la vie☘️."
 		},
 		en: {
 			session1: "morning",
@@ -25,7 +25,7 @@ module.exports = {
 			session4: "evening",
 			leaveType1: "left",
 			leaveType2: "was kicked from",
-			defaultLeaveMessage: "{userName} Adios, tu ne nous manqueras, macaque !"
+			defaultLeaveMessage: "{userName} On pense à toi, on pleure parfois on se demande pourquoi mais ainsi vas la vie.☘️"
 		}
 	},
 
