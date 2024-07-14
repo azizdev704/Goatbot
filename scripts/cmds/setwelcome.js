@@ -26,13 +26,23 @@ module.exports = {
 					+ "\n  + {multiple}: bạn || các bạn"
 					+ "\n  + {session}:  buổi trong ngày"
 					+ "\n\n   Ví dụ:"
-					+ "\n    {pn} text Hello {userName}, welcome to {boxName}, chúc {multiple} một ngày mới vui vẻ"
+					+ "\n    {pn} text 🌟 Bienvenue à vous dans cet espace merveilleux et chaleureux, où le sourire est toujours au rendez-vous et l'amitié règne en maître ! 🌟
+
+{username},🌺 Que je suis ravie de vous accueillir ici, cher visiteur, pour partager des moments d'échange, de découverte et de bonheur ensemble dans notre groupe {groupname} 🌺
+
+🌈 Que cette communauté soit un havre de paix, de joie et de partage, où chacun trouve sa place et son bonheur 💖
+
+🌟 Installez-vous confortablement, ouvrez votre cœur et laissez-vous envelopper par la magie de cet endroit unique ! 🌟
+
+🌼 Que notre voyage ensemble soit rempli de rires, de complicité et de belles découvertes ! 🌼
+
+🌈 Bienvenue parmi nous, cher ami, que cette aventure soit le début d'une belle et longue amitié ! 🌈"
 					+ "\n"
 					+ "\n   Reply (phản hồi) hoặc gửi kèm một tin nhắn có file với nội dung {pn} file: để thêm tệp đính kèm vào tin nhắn chào mừng (ảnh, video, audio)"
 					+ "\n\n   Ví dụ:"
 					+ "\n    {pn} file reset: xóa gửi file",
 				attachment: {
-					[`${__dirname}/assets/guide/setwelcome/setwelcome_vi_1.png`]: "https://i.ibb.co/vd6bQrW/setwelcome-vi-1.png"
+					[`${__dirname}/assets/guide/setwelcome/setwelcome_vi_1.png`]: "https://ibb.co/YXFZZH8"
 				}
 			},
 			en: {
@@ -43,13 +53,23 @@ module.exports = {
 					+ "\n  + {multiple}: you || you guys"
 					+ "\n  + {session}:  session in day"
 					+ "\n\n   Example:"
-					+ "\n    {pn} text Hello {userName}, welcome to {boxName}, have a nice day {multiple}"
+					+ "\n    {pn} text 🌟 Bienvenue à vous dans cet espace merveilleux et chaleureux, où le sourire est toujours au rendez-vous et l'amitié règne en maître ! 🌟
+
+{username},🌺 Que je suis ravie de vous accueillir ici, cher visiteur, pour partager des moments d'échange, de découverte et de bonheur ensemble dans notre groupe {groupname} 🌺
+
+🌈 Que cette communauté soit un havre de paix, de joie et de partage, où chacun trouve sa place et son bonheur 💖
+
+🌟 Installez-vous confortablement, ouvrez votre cœur et laissez-vous envelopper par la magie de cet endroit unique ! 🌟
+
+🌼 Que notre voyage ensemble soit rempli de rires, de complicité et de belles découvertes ! 🌼
+
+🌈 Bienvenue parmi nous, cher ami, que cette aventure soit le début d'une belle et longue amitié ! 🌈"
 					+ "\n"
 					+ "\n   Reply (phản hồi) or send a message with file with content {pn} file: to add file attachments to welcome message (image, video, audio)"
 					+ "\n\n   Example:"
 					+ "\n    {pn} file reset: delete file attachments",
 				attachment: {
-					[`${__dirname}/assets/guide/setwelcome/setwelcome_en_1.png`]: "https://i.ibb.co/vsCz0ks/setwelcome-en-1.png"
+					[`${__dirname}/assets/guide/setwelcome/setwelcome_en_1.png`]: "https://ibb.co/YXFZZH8"
 				}
 			}
 		}
