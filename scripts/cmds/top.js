@@ -6,7 +6,7 @@
  author: "Loufi",
  role: 0,
  shortDescription: {
- en: "Top 15 Rich Users"
+ en: "Top 200 Rich Users"
  },
  longDescription: {
  en: ""
@@ -23,7 +23,7 @@
 
  const topUsersList = topUsers.map((user, index) => `${index + 1}. ${user.name}: ${user.money}`);
 
- const messageText = `Top 15 Richest Users:\n${topUsersList.join('\n')}`;
+ const messageText = `Top 200 Richest Users:\n${topUsersList.join('\n')}`;
 
  message.reply(messageText);
  }
